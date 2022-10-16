@@ -1,0 +1,11 @@
+name: KitPvp
+version: '${version}'
+main: rezplugin.kitpvp.KitPvp
+api-version: 1.19
+authors: [ Perez ]
+description: Kit pvp plugin
+commands:
+  kpsetspawnpoint:
+    description: sets a spawn point at current location
+  kplistspawnpoints:
+    description: lists spawn points set
