@@ -8,4 +8,8 @@ commands:
   kpsetspawnpoint:
     description: sets a spawn point at current location
   kplistspawnpoints:
-    description: lists spawn points set
+    description: lists all spawn points
+  kpdelspawnpoint:
+    description: delete a specific spawn point
+  kitpvp:
+    description: sends you to kit pvp
