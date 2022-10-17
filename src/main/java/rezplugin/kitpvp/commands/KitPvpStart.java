@@ -9,6 +9,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.entity.Item;
 import org.bukkit.entity.Player;
 import org.bukkit.inventory.ItemStack;
+import rezplugin.kitpvp.KitPvp;
 import rezplugin.kitpvp.files.SpawnPointConfig;
 
 import java.util.ArrayList;
@@ -57,6 +58,9 @@ public class KitPvpStart implements CommandExecutor {
             player.getInventory().setChestplate(chestplate);
             player.getInventory().setLeggings(leggings);
             player.getInventory().setBoots(boots);
+
+            // add player to arraylist
+            KitPvp.plugin.playerList.add(player);
 
         }
 
